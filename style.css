@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* shared style */
+
+.display-flex{
+    display: flex;
+}
+
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+
+}
+
+/* header section styles */
+.head{
+    max-width: 1140px;
+    margin: 10px auto;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.logo-section{
+    align-items: center;
+}
+.nav-links a{
+    margin-right: 20px;
+}
+.btn{
+    background-color: orange;
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 12px;
+    color: #FFFFFF;
+}
+.home{
+    color: orange;
+}
+.about{
+    color: skyblue;
+}
+.facilities{
+    color: #05D4DF;
+}
+.adimission{
+    color: #5D58EF;
+
+}
+.hamburger{
+    display: none;
+}
+
+/* hero section style */
+
+.hero-section{
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero-title{
+    font-weight: 700;
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+.hero-description{
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+.emp{
+    color: orange;
+}
+.tv{
+    color: #05D4DF;
+}
+/* responsive section */
+
+@media screen and (max-width: 576px){
+    .hide{
+        /* visibility: hidden; */
+        display: none;
+    }
+    .logo{
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+    .head{
+        border-bottom: 0.5px solid orange;
+    }
+    .hamburger{
+        display: block;
+        height: 30px;
+        width: 30px;
+
+    }
+    .hero-section{
+        flex-direction: column-reverse;
+    }
+    .hero-img{
+        width: 100%;
+       
+    }
+    .hero-content{
+        text-align: center;
+    }
+    
+}
