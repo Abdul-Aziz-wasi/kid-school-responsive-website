@@ -274,6 +274,31 @@ footer{
     margin-bottom: 20px;
 }
 
+/* marquee section */
+.marquee{
+    height: 20px;
+    overflow: hidden;
+    position: relative;
+
+}
+
+.marquee h5{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    color: #FFFFFF;
+    background-color: black;
+    line-height: 20px;
+    text-align: center;
+    transform: translateX(-100%);
+    animation: example2 30s linear infinite;
+}
+@-webkit-keyframes example2 {
+100% { -webkit-transform: translateX(100%); }
+}
+
+
 /* responsive section */
 
 @media screen and (max-width: 576px){
@@ -349,6 +374,22 @@ footer{
         background: linear-gradient( #FFFFFF, #FFF4DC);
         background-image: url(assets/bg.png);
         background-repeat: no-repeat;
+    }
+
+    .marquee h5{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        color: #FFFFFF;
+        background-color: black;
+        line-height: 20px;
+        text-align: center;
+        transform: translateX(-100%);
+        animation: example2 30s linear infinite;
+    }
+    @-webkit-keyframes example2 {
+    100% { -webkit-transform: translateX(100%); }
     }
    
 }
