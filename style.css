@@ -84,13 +84,12 @@ a{
 }
 
 /* standard curriculam section */
-main{
-    background-image: url(assets/bg.png);
-    background-repeat: no-repeat;
-}
+
 .card-container{
     max-width: 1140px;
     margin: 0 auto;
+    background-image: url(assets/bg.png);
+    background-repeat: no-repeat;
     
 }
 .card-heading{
@@ -165,6 +164,12 @@ main{
     justify-content: center;
     align-items: center;
     
+    
+}
+.div-2{
+    background: linear-gradient( #FFFFFF, #FFF4DC);
+    background-image: url(assets/bg.png);
+    background-repeat: no-repeat;
 }
 .our-story-title{
     font-weight: 700;
@@ -235,7 +240,8 @@ main{
 .view{
     text-align: center;
     margin-top: 20px;
-    margin-bottom: 30px;
+    padding: 30px;
+    /* margin-bottom: 30px; */
 }
 .story-1{
     width: 50%;
@@ -338,6 +344,11 @@ footer{
         position: absolute;
         top: 85%;
         left: 5%;
+    }
+    .div-2.div-2{
+        background: linear-gradient( #FFFFFF, #FFF4DC);
+        background-image: url(assets/bg.png);
+        background-repeat: no-repeat;
     }
    
 }
